@@ -1,6 +1,6 @@
 # myLib
 
-## Recoding of some functions of some C libraries:
+## Wrote most used functions of C libraries:
 
 * memset 
 * bzero
