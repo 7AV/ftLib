@@ -6,7 +6,7 @@
 /*   By: sbudding <sbudding@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/01 19:41:14 by sbudding          #+#    #+#             */
-/*   Updated: 2020/11/11 10:52:41 by sbudding         ###   ########.fr       */
+/*   Updated: 2020/11/04 12:41:51 by sbudding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,18 +24,11 @@
 char				*ft_strdup(const char *s1)
 {
 	unsigned int	len;
-	unsigned int	index;
 	char			*dst;
 
 	len = ft_strlen((char *)s1);
 	if (!(dst = (char *)malloc((len + 1) * sizeof(char))))
 		return (NULL);
-	index = 0;
-	while (index <= len)
-	{
-		dst[index] = s1[index];
-		index++;
-	}
-	dst[index] = '\0';
+	ft_memcpy(dst, s1, (len + 1));
 	return (dst);
 }

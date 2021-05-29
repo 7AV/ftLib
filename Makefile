@@ -6,7 +6,7 @@
 #    By: sbudding <sbudding@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/10/30 12:00:37 by sbudding          #+#    #+#              #
-#    Updated: 2020/11/11 10:37:06 by sbudding         ###   ########.fr        #
+#    Updated: 2020/11/05 21:42:26 by sbudding         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,8 +46,7 @@ SRC = 	ft_memset.c \
 		ft_putchar_fd.c \
 		ft_putstr_fd.c \
 		ft_putendl_fd.c \
-		ft_putnbr_fd.c \
-		ft_strcpy.c
+		ft_putnbr_fd.c
 
 BONUS_SRC = ft_lstnew.c \
 			ft_lstadd_front.c \
@@ -57,8 +56,7 @@ BONUS_SRC = ft_lstnew.c \
 			ft_lstdelone.c \
 			ft_lstclear.c \
 			ft_lstiter.c \
-			ft_lstmap.c \
-
+			ft_lstmap.c
 
 OBJ = $(SRC:.c=.o)
 

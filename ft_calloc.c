@@ -6,7 +6,7 @@
 /*   By: sbudding <sbudding@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/31 20:28:51 by sbudding          #+#    #+#             */
-/*   Updated: 2020/11/11 11:12:43 by sbudding         ###   ########.fr       */
+/*   Updated: 2020/11/04 17:46:23 by sbudding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,17 +19,13 @@
 
 #include "libft.h"
 
-void				*ft_calloc(size_t count, size_t size)
+void		*ft_calloc(size_t count, size_t size)
 {
-	void			*dest;
-	unsigned char	*ptr;
-	size_t			len;
+	void	*dest;
 
-	len = count * size;
-	if (!(dest = (void *)malloc(len)))
+	dest = (void *)malloc(count * size);
+	if (!dest)
 		return (NULL);
-	ptr = dest;
-	while (len--)
-		*ptr++ = 0;
+	ft_memset(dest, 0, count * size);
 	return (dest);
 }

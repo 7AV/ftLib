@@ -6,7 +6,7 @@
 /*   By: sbudding <sbudding@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/30 11:18:50 by sbudding          #+#    #+#             */
-/*   Updated: 2020/11/11 10:36:18 by sbudding         ###   ########.fr       */
+/*   Updated: 2020/11/06 10:56:38 by sbudding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ char				*ft_strchr(char *str, int a);
 char				*ft_strrchr(char *str, int a);
 int					ft_strncmp(char *s1, char *s2, size_t n);
 size_t				ft_strlcpy(char *dst, const char *src, size_t dstsize);
-char				*ft_strcpy(char *dst, const char *src);
 size_t				ft_strlcat(char *dst, const char *src, size_t dstsize);
 char				*ft_strnstr(const char *haystack, const char *needle,
 size_t len);

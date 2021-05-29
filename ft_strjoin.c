@@ -6,7 +6,7 @@
 /*   By: sbudding <sbudding@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/02 12:58:44 by sbudding          #+#    #+#             */
-/*   Updated: 2020/11/11 11:28:52 by sbudding         ###   ########.fr       */
+/*   Updated: 2020/11/03 21:15:12 by sbudding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,17 +28,15 @@ char				*ft_strjoin(char const *s1, char const *s2)
 {
 	unsigned int	len_s1;
 	unsigned int	len_s2;
-	unsigned int	len_sum;
 	char			*dst;
 
 	if ((!s1) || (!s2))
 		return (NULL);
 	len_s1 = ft_strlen((char *)s1);
 	len_s2 = ft_strlen((char *)s2);
-	len_sum = len_s1 + len_s2;
-	if (!(dst = (char *)malloc((len_sum + 1) * sizeof(char))))
+	if (!(dst = (char *)ft_calloc(len_s1 + len_s2 + 1, sizeof(char))))
 		return (NULL);
-	ft_strcpy(dst, s1);
-	ft_strcpy(dst + len_s1, s2);
+	ft_strlcat(dst, s1, len_s1 + 1);
+	ft_strlcat(dst + len_s1, s2, len_s2 + 1);
 	return (dst);
 }
