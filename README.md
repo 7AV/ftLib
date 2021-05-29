@@ -1,4 +1,4 @@
-# ftLib
+# myLib
 
 ## Re-coding some of a C library functions:
 
