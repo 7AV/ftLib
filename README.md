@@ -12,3 +12,5 @@
 * split
 * memset, memcpy, memccpy, memmove, memchr, memcmp
 * lstnew, lstadd_front, lstadd_back, lstlast, lstsize, lstdelone, lstclear, lstiter, lstmap
+
+*ps need to add all in one folder rewrite makefile
