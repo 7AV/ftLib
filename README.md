@@ -1,6 +1,6 @@
 # myLib
 
-## Re-coding most used functions in C:
+## Recoded most used functions in C:
  
 * putchar_fd, putendl_fd, putstr_fd, putnbr_fd
 * strlen, strcmp, strncmp, strchr, strrchr, strlcpy, strlcat, strnstr
