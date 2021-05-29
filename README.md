@@ -2,12 +2,11 @@
 
 ## Wrote most used functions in C:
  
-* bzero
-* calloc
-* mem (set/cpy/ccpy/move/chr/cmp)
-* str (len/dup/cmp/ncmp/chr/rchr/lcpy/lcat/nstr)
-* is (ascii/alpha/digit/alnum/print)
-* to (upper/lower)
+* bzero, calloc
+* memset, memcpy, memccpy, memmove, memchr, memcmp
+* strlen, strdup, strcmp, strncmp, strchr, strrchr, strlcpy, strlcat, strnstr
+* isascii, isalpha, isdigit, isalnum, isprint
+* toupper, tolower
 * atoi, itoa
 * put (
-* lst (new/add_front/add_back/last/size/delone/clear/iter/map)
+* lstnew, lstadd_front, lstadd_back, lstlast, lstsize, lstdelone, lstclear, lstiter, lstmap
