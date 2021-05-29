@@ -1,6 +1,6 @@
 # myLib
 
-## Recoded most used functions in C:
+## Most commonly used C functions have been recoded:
  
 * putchar_fd, putendl_fd, putstr_fd, putnbr_fd
 * strlen, strcmp, strncmp, strchr, strrchr, strlcpy, strlcat, strnstr
