@@ -1,6 +1,6 @@
 # myLib
 
-## Re-coding some of a C library functions:
+## Recoding of some functions of some C libraries:
 
 * memset 
 * bzero
