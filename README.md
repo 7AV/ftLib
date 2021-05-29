@@ -1,6 +1,6 @@
 # myLib
 
-## Wrote most used functions of C libraries:
+## Wrote most used functions in C:
 
 * memset 
 * bzero
